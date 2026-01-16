@@ -11,7 +11,7 @@ const App = () => {
       <div className="btn-group">
        
         <button
-          disabled={count >= 20 ? true : false}
+          disabled={count >= 10 ? true : false}
           onClick={() => setCount(count + 1)}
           className="btn increment"
         >
